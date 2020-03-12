@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.header{
+width: 100%;
+height: 500px;
+/* border: coral solid 2px; */
+background-image: url(/assets/img/pencil.jpg);
+background-size: cover;
+display: flex;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    background-color: #1D809F ;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.header__content{
+    margin: auto;
+}
+h1,h5{
+    text-align: center;
+}
+
+.header__content-button button{
+    margin: auto;
+}
+
+.body1{
+    /* border: coral solid 2px; */
+    width: 100%;
+    height: 200px;
+    background-color: rgb(230, 233, 240);
+    display: flex;
+}
+
+.body1__content p{
+    font-size: 11px;
+}
+
+.body1__content{
+    margin: auto;
+}
+
+.body1__content-button button{
+    margin: auto;
+    background-color: #333A40;
+}
+
+.body2{
+    /* border: coral solid 2px; */
+    width: 100%;
+    height: 300px;
+    background-color: #1D809F;
+    color: whitesmoke;
+    display: flex;
+}
+.body2__content p:first-child{
+    color: #DFAE2F ;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.body2__content h2{
+    text-align: center;
+}
+
+.body2__content{
+    width: 100%;
+    margin: auto;
+}
+
+.body2__box{
+    /* border: coral solid 2px; */
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body2__box-content{
+    width: 20%;
+    margin: auto;
+}
+
+.body2__box p{
+    font-size: 12px;
+    text-align: center;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+    margin: auto;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    /* border: tomato solid 2px; */
+    background-color: whitesmoke;
+    border-radius: 40px;
+    margin: auto;
+}
+
+.body2__box-content-icon{
+    display: flex;
+}
+.body2__box h5{
+    margin-top: 10px;
+}
+
+.body3{
+    height: 500px;
+    border: tomato solid 2px;
+    background-image: url(/assets/img/background2.jpg);
+    background-size: cover;
+    display: flex;
+}
+.body3 button{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+.body3__content-button{
+    display: flex;
+}
+
+.body3__content{
+    margin: auto;
+}
+.body3__content h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.body1__content-button{
+    display: flex;
+}
+
+.header__content-button{
+    display: flex;
+}
