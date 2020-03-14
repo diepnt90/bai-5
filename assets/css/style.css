@@ -14,8 +14,22 @@ height: 500px;
 background-image: url(/assets/img/pencil.jpg);
 background-size: cover;
 display: flex;
+position: relative;
+}
+.menu{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #917A3E;
 }
 
+.menu i{
+    color: whitesmoke;
+    margin-top: 12px;
+    margin-left: 13px;
+}
 button{
     width: 100px;
     height: 40px;
@@ -122,7 +136,7 @@ img{
 
 .body3{
     height: 500px;
-    border: tomato solid 2px;
+    /* border: tomato solid 2px; */
     background-image: url(/assets/img/background2.jpg);
     background-size: cover;
     display: flex;
@@ -150,4 +164,146 @@ img{
 
 .header__content-button{
     display: flex;
+}
+
+.body4{
+    /* border: coral solid 2px; */
+    height: 600px;
+    display: flex;
+}
+.body4__content{
+    width: 60%;
+    margin: auto;
+}
+
+.body4__content p:first-child{
+    color: #DFAE2F ;
+    font-size: 10px;
+    text-align: center;
+}
+.body4__content h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h3{
+    text-align: center;
+}
+
+.picture{
+    width: 50%;
+    height: 250px;
+}
+
+.picture1{
+    background-image: url(https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?h=1500&w=2000&fit=clip&fm=jpg);
+    background-size: cover;
+}
+
+.picture{
+    color: whitesmoke;
+}
+
+.picture p{
+    font-size: 10px;
+    margin-left: 10%;
+}
+.body4__content-picture{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.picture2{
+    background-image: url(https://lehis.eu/dist/img/portfolio-2.jpg);
+    background-size: cover;
+}
+.picture h4{
+    margin-top: 30%;
+    margin-left: 10%;
+}
+.picture3{
+    background-image: url(https://i0.wp.com/www.christiethomaswriter.com/wp-content/uploads/2018/02/joanna-kosinska-340746-e1519320390279.jpg?w=1000&ssl=1);
+    background-size: cover;
+}
+
+.picture4{
+    background-image: url(/assets/img/background2.jpg);
+    background-size: cover;
+}
+
+.body5{
+    margin-top: 20px;
+    height: 200px;
+    background-color: #1D809F;
+    display: flex;
+}
+.body5__content p{
+    font-size: 25px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+.body5__content{
+    margin: auto;
+}
+
+.button1{
+    height: 40px;
+    width: 80px;
+    background-color: whitesmoke;
+    color: black;
+    margin-left: 150px;
+}
+.button2{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.map{
+    height: 430px;
+    background-image: url(/assets/img/maps.png);
+}
+
+.footer{
+    height: 200px;
+    display: flex;
+    position: relative;
+}
+
+.footer__content{
+    margin: auto;
+}
+
+.footer__content p{
+    margin-top: 40px;
+}
+
+
+.footer__content-icon{
+    display: flex;
+}
+
+.footer__content-icon>div{
+    background-color: #1D809F;
+}
+
+.icon i{
+    color: whitesmoke;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+.narrow{
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #BABEC1;
+}
+.narrow i{
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-left: 13px;
 }
