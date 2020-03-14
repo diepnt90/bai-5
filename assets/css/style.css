@@ -263,6 +263,7 @@ h3{
 .map{
     height: 430px;
     background-image: url(/assets/img/maps.png);
+    background-size: cover;
 }
 
 .footer{
